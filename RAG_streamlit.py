@@ -76,9 +76,6 @@ class PrintRetrievalHandler(BaseCallbackHandler):
             
         self.status.update(state = "complete") 
         
-# 
-# api_key = 'AIzaSyDNpp0KaAXNzGQLDTYCopXOKd8lwT7FluI'
-# os.environ["GOOGLE_API_KEY"] = api_key 
 
 api_key = st.sidebar.text_input("Google API Key", type="password")
 
